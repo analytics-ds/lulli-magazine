@@ -1,0 +1,14 @@
+{
+  "name": "Le Magazine Lulli",
+  "short_name": "Lulli",
+  "description": "Le magazine de Lulli sur la Toile : conseils, inspirations, createurs et idees cadeaux.",
+  "start_url": "./",
+  "display": "standalone",
+  "theme_color": "#FCFCFE",
+  "background_color": "#FCFCFE",
+  "icons": [
+    { "src": "images/logos/lulli-icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "images/logos/lulli-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "apple-touch-icon.png", "sizes": "192x192", "type": "image/png", "purpose": "any" }
+  ]
+}

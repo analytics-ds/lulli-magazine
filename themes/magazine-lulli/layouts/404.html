@@ -1,0 +1,16 @@
+{{ define "main" }}
+{{ $en := eq .Site.Language.Lang "en" }}
+
+<section class="error-page">
+    <div class="container">
+        <span class="error-code">404</span>
+        <h1>{{ if $en }}Page not found{{ else }}Page introuvable{{ end }}</h1>
+        <p>{{ if $en }}The page you are looking for does not exist or has been moved.{{ else }}La page que vous recherchez n'existe pas ou a ete deplacee.{{ end }}</p>
+        <div class="error-links">
+            <a href="{{ "/" | relLangURL }}" class="btn-dark">{{ if $en }}Back home{{ else }}Retour a l'accueil{{ end }}</a>
+            <a href="{{ "blog/" | relLangURL }}" class="btn-outline">{{ if $en }}The Magazine{{ else }}Le Magazine{{ end }}</a>
+        </div>
+    </div>
+</section>
+
+{{ end }}

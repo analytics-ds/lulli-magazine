@@ -1,0 +1,111 @@
+baseURL = "https://magazine.lulli-sur-la-toile.com/"
+title = "Le Magazine Lulli"
+theme = "magazine-lulli"
+
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+enableGitInfo = false
+
+[pagination]
+  pagerSize = 12
+
+[languages]
+  [languages.fr]
+    languageCode = "fr-FR"
+    languageName = "Francais"
+    weight = 1
+    title = "Le Magazine Lulli"
+    contentDir = "content/fr"
+    [languages.fr.params]
+      description = "Le magazine de Lulli sur la Toile : conseils, inspirations, createurs et idees cadeaux par le concept store."
+
+  [languages.en]
+    languageCode = "en-US"
+    languageName = "English"
+    weight = 2
+    title = "Le Magazine Lulli"
+    contentDir = "content/en"
+    [languages.en.params]
+      description = "The magazine of Lulli sur la Toile: advice, inspiration, designers and gift ideas from the concept store."
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# --- Menu FR ---
+[[languages.fr.menus.main]]
+  name = "Accueil"
+  url = "/"
+  weight = 1
+[[languages.fr.menus.main]]
+  name = "Conseils"
+  url = "/categories/conseils/"
+  weight = 2
+[[languages.fr.menus.main]]
+  name = "Inspirations"
+  url = "/categories/inspirations/"
+  weight = 3
+[[languages.fr.menus.main]]
+  name = "Créateurs"
+  url = "/categories/createurs/"
+  weight = 4
+[[languages.fr.menus.main]]
+  name = "Idées Cadeaux"
+  url = "/categories/idees-cadeaux/"
+  weight = 5
+[[languages.fr.menus.main]]
+  name = "Le Magazine"
+  url = "/blog/"
+  weight = 99
+
+# --- Menu EN ---
+[[languages.en.menus.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+[[languages.en.menus.main]]
+  name = "Advice"
+  url = "/categories/advice/"
+  weight = 2
+[[languages.en.menus.main]]
+  name = "Inspiration"
+  url = "/categories/inspiration/"
+  weight = 3
+[[languages.en.menus.main]]
+  name = "Designers"
+  url = "/categories/designers/"
+  weight = 4
+[[languages.en.menus.main]]
+  name = "Gift Guides"
+  url = "/categories/gift-guides/"
+  weight = 5
+[[languages.en.menus.main]]
+  name = "The Magazine"
+  url = "/blog/"
+  weight = 99
+
+[params]
+  logo = "images/logos/lulli-icon-512.png"
+  default_og_image = "images/og-default.svg"
+  og_locale_alternate = "en_US"
+  parentBrandUrl = "https://www.lulli-sur-la-toile.com/"
+  expertise = ["Mode femme", "Créateurs", "Style et tendances", "Idées cadeaux", "Art de vivre"]
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[related]
+  includeNewer = true
+  threshold = 80
+  [[related.indices]]
+    name = "categories"
+    weight = 100
+  [[related.indices]]
+    name = "tags"
+    weight = 80

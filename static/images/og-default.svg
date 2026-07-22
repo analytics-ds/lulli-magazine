@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#FCFCFE"/>
+  <text x="600" y="300" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif" font-size="92" font-weight="400"
+        letter-spacing="2" fill="#1D1D1B">Le Magazine Lulli</text>
+  <text x="600" y="370" text-anchor="middle"
+        font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="400"
+        letter-spacing="10" fill="#6E6C68">CREATEURS · STYLE · ART DE VIVRE</text>
+</svg>

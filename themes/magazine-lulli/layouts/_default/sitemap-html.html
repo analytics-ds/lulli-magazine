@@ -1,0 +1,45 @@
+{{ define "main" }}
+{{ $en := eq .Site.Language.Lang "en" }}
+
+<section class="sitemap-page">
+    <header class="list-header">
+        <div class="container">
+            <h1>{{ if $en }}Site map{{ else }}Plan du site{{ end }}</h1>
+            <p class="list-description">{{ if $en }}All pages of {{ else }}Toutes les pages de {{ end }}{{ .Site.Title }}</p>
+        </div>
+    </header>
+
+    <div class="sitemap-content">
+        <div class="container container-narrow">
+
+            <div class="sitemap-section">
+                <h2>{{ if $en }}Main pages{{ else }}Pages principales{{ end }}</h2>
+                <ul class="sitemap-list">
+                    <li><a href="{{ "/" | relLangURL }}">{{ if $en }}Home{{ else }}Accueil{{ end }}</a></li>
+                    {{ range .Site.Menus.main }}
+                    <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+
+            {{ range $key, $taxonomy := .Site.Taxonomies.categories }}
+            <div class="sitemap-section">
+                <h2>{{ $taxonomy.Page.Title }}</h2>
+                <ul class="sitemap-list">
+                    {{ range $taxonomy.Pages.ByDate.Reverse }}
+                    <li>
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        <span class="sitemap-date">
+                            {{ with .Params.lastmod }}{{ (time .).Format "02/01/2006" }}{{ else }}{{ .Date.Format "02/01/2006" }}{{ end }}
+                        </span>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+
+        </div>
+    </div>
+</section>
+
+{{ end }}

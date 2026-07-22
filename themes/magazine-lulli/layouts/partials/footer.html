@@ -1,0 +1,38 @@
+{{ $en := eq .Site.Language.Lang "en" }}
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="https://www.lulli-sur-la-toile.com/" class="footer-logo" aria-label="Lulli sur la Toile" rel="noopener">
+                    <span aria-hidden="true">{{ with resources.Get "images/logo-lulli.svg" }}{{ .Content | safeHTML }}{{ end }}</span>
+                </a>
+                <p>{{ .Site.Params.description }}</p>
+            </div>
+            <div class="footer-col">
+                <h4>{{ if $en }}Sections{{ else }}Rubriques{{ end }}</h4>
+                <ul>
+                    {{ with .Site.GetPage "/categories" }}
+                    {{ range .Pages.ByTitle }}
+                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                    {{ end }}
+                    {{ end }}
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>{{ if $en }}Navigation{{ else }}Navigation{{ end }}</h4>
+                <nav aria-label="{{ if $en }}Footer navigation{{ else }}Navigation pied de page{{ end }}">
+                    <ul>
+                        {{ range .Site.Menus.main }}
+                        <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+                        {{ end }}
+                        <li><a href="https://www.lulli-sur-la-toile.com/" rel="noopener">lulli-sur-la-toile.com</a></li>
+                        <li><a href="{{ (cond $en "site-map/" "plan-du-site/") | relLangURL }}">{{ if $en }}Site map{{ else }}Plan du site{{ end }}</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; {{ now.Year }} Lulli sur la Toile. {{ if $en }}All rights reserved{{ else }}Tous droits reserves{{ end }}</p>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,71 @@
+{{ define "main" }}
+{{ $en := eq .Site.Language.Lang "en" }}
+
+<!-- Hero masthead -->
+<section class="hero">
+    <div class="hero-content">
+        <span class="hero-badge">{{ with .Params.heroBadge }}{{ . }}{{ else }}Lulli sur la Toile{{ end }}</span>
+        <h1>{{ with .Params.heroTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
+        <p class="hero-description">{{ with .Params.heroDescription }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}</p>
+        <a href="{{ "blog/" | relLangURL }}" class="btn-primary">{{ if $en }}Explore the journal{{ else }}Explorer le journal{{ end }}</a>
+    </div>
+</section>
+
+<!-- Rubriques : navigation principale du blog -->
+<section class="categories-section">
+    <div class="container">
+        <span class="eyebrow section-eyebrow">{{ if $en }}Explore{{ else }}Explorer{{ end }}</span>
+        <h2 class="section-title">{{ if $en }}The sections{{ else }}Les rubriques{{ end }}</h2>
+        <div class="grid-categories">
+            {{ with .Site.GetPage "/categories" }}
+            {{ range .Pages.ByTitle }}
+            <a href="{{ .RelPermalink }}" class="category-card">
+                <div class="category-card-top">
+                    <h3>{{ .Title }}</h3>
+                    {{ with .Params.description }}<p class="category-desc">{{ . }}</p>{{ end }}
+                </div>
+                <span class="category-link">{{ if $en }}Discover{{ else }}Decouvrir{{ end }} <span aria-hidden="true">&rarr;</span></span>
+            </a>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<!-- Dernier article (teaser compact) -->
+{{ $latest := first 3 (where .Site.RegularPages "Section" "blog") }}
+{{ if $latest }}
+<section class="latest-section">
+    <div class="container">
+        <span class="eyebrow section-eyebrow">{{ if $en }}From the magazine{{ else }}Le Magazine{{ end }}</span>
+        <h2 class="section-title">{{ if $en }}Latest reading{{ else }}A lire en ce moment{{ end }}</h2>
+        <div class="articles-list">
+            {{ range $latest }}
+            <article class="article-card-horizontal">
+                <a href="{{ .RelPermalink }}" class="article-card-horizontal-image-wrapper" aria-label="{{ .Title }}">
+                    {{ if .Params.image }}
+                    <img src="{{ .Params.image | relURL }}" alt="{{ .Params.imageAlt | default .Title }}" class="article-card-horizontal-image" loading="lazy" width="320" height="240">
+                    {{ else }}
+                    <span class="article-card-horizontal-image article-card-image-placeholder" aria-hidden="true">{{ slicestr .Title 0 1 }}</span>
+                    {{ end }}
+                </a>
+                <div class="article-body">
+                    <div class="article-meta">
+                        {{ with .Params.categories }}<span class="article-category">{{ index . 0 }}</span><span class="meta-separator">/</span>{{ end }}
+                        <time>{{ .Date.Format "2 January 2006" }}</time>
+                    </div>
+                    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                    <p>{{ .Description }}</p>
+                    <a href="{{ .RelPermalink }}" class="read-more">{{ if $en }}Read{{ else }}Lire l'article{{ end }}</a>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+        <div class="section-cta">
+            <a href="{{ "blog/" | relLangURL }}" class="text-link">{{ if $en }}All articles{{ else }}Tous les articles{{ end }}</a>
+        </div>
+    </div>
+</section>
+{{ end }}
+
+{{ end }}

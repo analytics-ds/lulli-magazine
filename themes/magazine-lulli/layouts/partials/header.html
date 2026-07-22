@@ -1,0 +1,98 @@
+{{ $en := eq .Site.Language.Lang "en" }}
+<header class="site-header">
+    <div class="header-container">
+        <a href="{{ "/" | relLangURL }}" class="site-logo" aria-label="{{ .Site.Title }} — Lulli sur la Toile">
+            <span class="site-logo-mark" aria-hidden="true">
+                {{ with resources.Get "images/logo-lulli.svg" }}{{ .Content | safeHTML }}{{ end }}
+            </span>
+            <span class="site-logo-divider" aria-hidden="true"></span>
+            <span class="site-logo-sub">Le Magazine</span>
+        </a>
+
+        <div class="header-right">
+            <nav class="site-nav" role="navigation" aria-label="{{ if $en }}Main navigation{{ else }}Navigation principale{{ end }}">
+                {{ range .Site.Menus.main }}
+                <a href="{{ .URL | relLangURL }}" class="nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">
+                    {{ .Name }}
+                </a>
+                {{ end }}
+            </nav>
+
+            {{ if gt (len .Site.Languages) 1 }}
+            <div class="lang-switcher" aria-label="Language switcher">
+                {{ $currentLang := .Site.Language.Lang }}
+                {{ range .Site.Languages }}
+                {{ $lang := . }}
+                {{ if eq $lang.Lang $currentLang }}
+                <span class="lang-current" aria-current="true">{{ upper $lang.Lang }}</span>
+                {{ else }}
+                {{ $target := "" }}
+                {{ range $.Translations }}
+                    {{ if eq .Lang $lang.Lang }}{{ $target = .Permalink }}{{ end }}
+                {{ end }}
+                {{ if not $target }}{{ $target = printf "/%s/" $lang.Lang }}{{ end }}
+                <a href="{{ $target }}" class="lang-link" hreflang="{{ $lang.Lang }}">{{ upper $lang.Lang }}</a>
+                {{ end }}
+                {{ end }}
+            </div>
+            {{ end }}
+
+            <button class="theme-toggle" type="button" aria-label="{{ if $en }}Switch theme{{ else }}Changer de theme{{ end }}" title="{{ if $en }}Light / dark{{ else }}Clair / sombre{{ end }}">
+                <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+            </button>
+
+            <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </div>
+
+    <nav class="nav-mobile" aria-label="{{ if $en }}Mobile navigation{{ else }}Navigation mobile{{ end }}">
+        {{ range .Site.Menus.main }}
+        <a href="{{ .URL | relLangURL }}" class="nav-link-mobile">{{ .Name }}</a>
+        {{ end }}
+        {{ if gt (len .Site.Languages) 1 }}
+        <div class="lang-switcher-mobile">
+            {{ $currentLangM := .Site.Language.Lang }}
+            {{ range .Site.Languages }}
+            {{ $lang := . }}
+            {{ if eq $lang.Lang $currentLangM }}
+            <span class="lang-current" aria-current="true">{{ upper $lang.Lang }}</span>
+            {{ else }}
+            {{ $target := "" }}
+            {{ range $.Translations }}
+                {{ if eq .Lang $lang.Lang }}{{ $target = .Permalink }}{{ end }}
+            {{ end }}
+            {{ if not $target }}{{ $target = printf "/%s/" $lang.Lang }}{{ end }}
+            <a href="{{ $target }}" class="lang-link" hreflang="{{ $lang.Lang }}">{{ upper $lang.Lang }}</a>
+            {{ end }}
+            {{ end }}
+        </div>
+        {{ end }}
+    </nav>
+</header>
+
+<script>
+(function() {
+    var toggle = document.querySelector('.menu-toggle');
+    var mobileNav = document.querySelector('.nav-mobile');
+    if (toggle && mobileNav) {
+        toggle.addEventListener('click', function() {
+            var isOpen = mobileNav.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', String(isOpen));
+        });
+    }
+    var themeBtn = document.querySelector('.theme-toggle');
+    if (themeBtn) {
+        themeBtn.addEventListener('click', function() {
+            var root = document.documentElement;
+            var isDark = root.getAttribute('data-theme') === 'dark';
+            if (isDark) { root.removeAttribute('data-theme'); try { localStorage.setItem('theme', 'light'); } catch(e){} }
+            else { root.setAttribute('data-theme', 'dark'); try { localStorage.setItem('theme', 'dark'); } catch(e){} }
+            var meta = document.querySelector('meta[name="theme-color"]');
+            if (meta) meta.setAttribute('content', isDark ? '#FCFCFE' : '#141312');
+        });
+    }
+})();
+</script>

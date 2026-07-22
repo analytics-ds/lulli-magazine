@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang | default "fr" }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Mode clair par defaut, bascule sombre memorisee. Applique avant peinture (anti-flash). -->
+    <script>(function(){try{var t=localStorage.getItem("theme");if(t==="dark"){document.documentElement.setAttribute("data-theme","dark");}}catch(e){}})();</script>
+
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
+    <!-- Theme / couleurs (bonnes pratiques Google) -->
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#FCFCFE">
+    <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
+    <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
+
+    {{ partial "seo-head.html" . }}
+
+    <!-- Fraunces (serif, substitut Atacama) + Inter (grotesque, substitut Antarctica) — DA Lulli -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" media="print" data-media="all">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
+    <script>document.querySelectorAll('link[data-media]').forEach(function(l){l.addEventListener('load',function(){l.media=l.dataset.media})});</script>
+
+    {{ $css := resources.Get "css/main.css" }}
+    {{ if $css }}
+        <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+    {{ end }}
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">{{ if eq .Site.Language.Lang "en" }}Skip to content{{ else }}Aller au contenu{{ end }}</a>
+
+    {{ partial "header.html" . }}
+
+    <main id="main-content">
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    {{ partial "footer.html" . }}
+</body>
+</html>

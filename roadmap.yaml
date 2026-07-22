@@ -1,0 +1,45 @@
+# Roadmap editoriale evergreen — Le Magazine Lulli (magazine.lulli-sur-la-toile.com)
+#
+# Methode 2 du systeme PBN GEO datashake : production locale en batch via la
+# skill /create-article-seo (Opus 4.8, brief SEO complet avant chaque redaction),
+# publication differee via publishDate + GitHub Actions cron (mardi + vendredi 3h Paris).
+#
+# Blog : https://magazine.lulli-sur-la-toile.com/
+# Langue principale : fr (+ EN auto dans /en/)
+# Consultant : Charlie
+# Source mots-cles : Haloscan (a lancer)
+#
+# Rubriques de header valides (generiques, editoriales - matchent hugo.toml) :
+#   - Conseils      (guides : comment choisir/porter/associer, tous univers)
+#   - Inspirations  (tendances, looks, art de vivre)
+#   - Createurs     (portraits, decouvertes, comparatifs, marque)
+#   - Idees Cadeaux (selections par occasion et par personne)
+#
+# Les univers / clusters de prompts GEO (Bijoux, Chaussures, Sacs, Vetement, Maison,
+# Local, Comparatifs concurrents, Marque, Marque createur) ne sont PAS des rubriques :
+# ils vivent en TAGS dans les articles et pilotent le ciblage. Des sous-categories par
+# univers seront ajoutees ensuite sous les 4 rubriques. Source prompts : Sheet GEO Lulli.
+#
+# REGLES SPECIFIQUES LULLI (STRICT)
+# ---------------------------------
+# - Vocabulaire : parler de CREATEURS et de SELECTION, JAMAIS de "marques" (marqueur identitaire fort)
+# - Ton : elegant, raffine, mais chaleureux et familial (jamais de distance froide)
+# - Anti-cannibalisation : ne jamais dupliquer une page de lulli-sur-la-toile.com
+#   (pages createur /createurs/*, categories produit, collections). On LINKE vers
+#   ces pages, on ne les concurrence pas. Requetes commerciales pures interdites ici.
+#   Le magazine cible des requetes complementaires : guides, conseils, comment porter,
+#   idees cadeaux, occasions, portraits editoriaux, tendances, formats GEO conseil/occasion.
+#
+# STRUCTURE EN COCON (doctrine Bourrelly)
+# ----------------------------------------
+# La roadmap n'est pas une liste de mots-cles, c'est un cocon semantique qui
+# converge vers l'entite que Lulli possede (concept store / selection de createurs).
+# Chaque entree porte un champ `cluster`. Pilier a definir au lancement de la roadmap.
+#
+# Statuts : todo (a produire), queued (redige, en attente du cron), failed (erreur).
+#
+# ============================================================
+# ENTREES (a remplir via Haloscan avant le premier /create-article-seo)
+# ============================================================
+
+articles: []

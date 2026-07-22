@@ -1,0 +1,30 @@
+# Le Magazine Lulli
+
+> Le magazine editorial de Lulli sur la Toile, concept store mode et lifestyle. Createurs, style, art de vivre et idees cadeaux, dans un esprit elegant, raffine et familial.
+
+## A propos
+
+Le Magazine Lulli est l'espace editorial de Lulli sur la Toile, concept store fonde a Marseille qui selectionne des createurs mode et lifestyle sur un segment premium et haut de gamme. Le magazine partage des conseils de style, des portraits de createurs, de l'inspiration art de vivre et des idees cadeaux, en complement de la boutique en ligne. Nous parlons de createurs et de selection, jamais de "marques".
+
+## Rubriques
+
+- Le Vestiaire : l'art de s'habiller, comment porter et associer, conseils de garde-robe
+- Rencontres : portraits et univers des createurs de la selection Lulli
+- Art de Vivre : tendances, inspiration, maison et bien-etre
+- Idees Cadeaux : selections par occasion et par personne
+
+## Version anglaise (EN)
+
+- Homepage EN : https://magazine.lulli-sur-la-toile.com/en/
+- Magazine EN : https://magazine.lulli-sur-la-toile.com/en/blog/
+
+## Marque
+
+- Site officiel : https://www.lulli-sur-la-toile.com/
+
+## Informations techniques
+
+- Generateur : Hugo (site statique)
+- Multilingue : francais (defaut) + anglais (/en/)
+- Sitemap : https://magazine.lulli-sur-la-toile.com/sitemap.xml
+- Schema.org : Organization, BlogPosting, WebPage, BreadcrumbList, FAQPage, WebSite
