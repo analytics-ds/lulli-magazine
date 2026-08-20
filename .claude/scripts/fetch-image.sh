@@ -26,6 +26,44 @@ fi
 
 mkdir -p "$OUTPUT_DIR"
 
+# --- Banque centrale d'abord (photos officielles Lulli + images curees Pexels) ---
+# On cherche le picker en remontant les dossiers parents (workspace SEO-Claude).
+# S'il trouve un visuel pertinent dans assets/banque-images, on le copie et on sort.
+# Pour Lulli, bank-pick.py sert en priorite les photos officielles du client (source=client).
+# Sinon on retombe sur Openverse (comportement historique, aucune regression).
+PICKER=""
+_d="$PWD"
+for _i in $(seq 1 8); do
+    if [ -f "$_d/tools/banque-images/bank-pick.py" ]; then PICKER="$_d/tools/banque-images/bank-pick.py"; break; fi
+    [ "$_d" = "/" ] && break
+    _d="$(dirname "$_d")"
+done
+
+if [ -n "$PICKER" ]; then
+    BANK_ERR=$(mktemp)
+    if BANK_OUT=$(python3 "$PICKER" "$QUERY" "$SLUG" 2>"$BANK_ERR"); then
+        [ -s "$BANK_ERR" ] && cat "$BANK_ERR" >&2   # remonte les alertes (sur-utilisation / theme sature)
+        rm -f "$BANK_ERR"
+        SRC_FILE=$(printf '%s\n' "$BANK_OUT" | sed -n '1p')
+        BANK_ALT=$(printf '%s\n' "$BANK_OUT" | sed -n '2p')
+        BANK_CREDIT=$(printf '%s\n' "$BANK_OUT" | sed -n '3p')
+        [ -z "$BANK_CREDIT" ] && BANK_CREDIT="Photo via Pexels (usage commercial, sans attribution requise)"
+        if [ -n "$SRC_FILE" ] && [ -f "$SRC_FILE" ]; then
+            OUTPUT_FILE="$OUTPUT_DIR/$SLUG.webp"
+            cp "$SRC_FILE" "$OUTPUT_FILE"
+            HUGO_PATH=$(printf '%s' "$OUTPUT_FILE" | sed -E 's|^\.?/?static/|/|')
+            case "$HUGO_PATH" in /*) ;; *) HUGO_PATH="/$HUGO_PATH" ;; esac
+            echo "[fetch-image] Banque centrale (match) : $OUTPUT_FILE" >&2
+            printf '%s\n%s\n%s\n' "$HUGO_PATH" "$BANK_ALT" "$BANK_CREDIT"
+            exit 0
+        fi
+    else
+        [ -s "$BANK_ERR" ] && cat "$BANK_ERR" >&2
+        rm -f "$BANK_ERR"
+    fi
+fi
+echo "[fetch-image] Pas de match banque, fallback Openverse" >&2
+
 # URL-encode la query (gere les accents)
 QUERY_ENCODED=$(printf '%s' "$QUERY" | python3 -c "import sys,urllib.parse; print(urllib.parse.quote(sys.stdin.read().strip()))" 2>/dev/null || echo "$QUERY" | sed 's/ /+/g')
 
