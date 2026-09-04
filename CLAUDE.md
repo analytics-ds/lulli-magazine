@@ -30,7 +30,7 @@ Ce repo ne contient pas de site. Il contient les **instructions et templates** p
 ```
 .claude/
 ├── scripts/
-│   └── fetch-image.sh           ← Recuperation auto d'image libre de droit (Openverse API)
+│   └── fetch-image.sh           ← Image libre de droit : cascade Pexels/Unsplash/Openverse + visuel genere
 ├── skills/
 │   ├── create-site.md           ← Workflow creation de site complet
 │   ├── create-article.md        ← Workflow creation d'article (multi-types)
@@ -129,7 +129,7 @@ Cette limite sert a eviter la publication en masse et a maintenir un rythme de p
 - Le sitemap HTML (`/plan-du-site/`) se regenere automatiquement a chaque build Hugo
 - Toujours build et verifier (`hugo`) avant de commit
 - Chaque article doit avoir un champ `faq` dans le frontmatter (liste de questions/reponses) pour generer automatiquement le schema FAQPage JSON-LD. Minimum 3 questions
-- Chaque article a une image hero OBLIGATOIRE, recuperee automatiquement par `.claude/scripts/fetch-image.sh` au moment de `/create-article`. L'image provient de l'API publique Openverse (federe Wikimedia, Flickr, etc.), filtree sur les licences autorisant l'usage commercial et la modification (CC BY, CC BY-SA, CC0, PDM). Convertie en WebP automatiquement si `cwebp` est installe. Stockee dans `static/images/blog/[slug].webp`
+- Chaque article a une image hero OBLIGATOIRE, recuperee automatiquement par `.claude/scripts/fetch-image.sh` au moment de `/create-article`. L'image vient de la **cascade Pexels -> Unsplash -> Openverse -> visuel de charte genere** (revue le 2026-09-04 : Openverse n'est plus la source nominale, il ne produisait que 15 photos pertinentes sur 45 heros mesures). Les cles `PEXELS_API_KEY` et `UNSPLASH_ACCESS_KEY` viennent du **prompt de la routine** ou du `.env` local, **jamais du repo** qui est public ; sans cle la cascade demarre a Openverse et l'article sort quand meme. Le registre `.claude/hero-sources.json` empeche deux articles de porter la meme photo. **Controle visuel obligatoire avant publication, quelle que soit la banque.** Convertie en WebP automatiquement si `cwebp` est installe. Stockee dans `static/images/blog/[slug].webp`
 - Le frontmatter contient 3 champs lies a l'image : `image` (chemin Hugo), `imageAlt` (texte alternatif FR, max 125 car), `imageCredit` (attribution du photographe). Ces 3 champs sont remplis automatiquement par le script
 - L'image est affichee : (1) dans les cards de la homepage et des pages de liste, (2) en bannière cote a cote avec le titre sur la page article, (3) dans og:image pour les partages sociaux, (4) dans le schema Article JSON-LD
 - Le credit photo est affiche sous l'image de l'article (petite mention en italique alignee a droite). Obligatoire pour respecter les licences CC BY et CC BY-SA
