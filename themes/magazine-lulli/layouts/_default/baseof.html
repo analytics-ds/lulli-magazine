@@ -29,7 +29,6 @@
     {{ if $css }}
         <link rel="stylesheet" href="{{ $css.RelPermalink }}">
     {{ end }}
-    {{/* pbn-legal-noindex */}}{{- if .Params.noindex }}<meta name="robots" content="noindex, follow">{{ end }}
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">{{ if eq .Site.Language.Lang "en" }}Skip to content{{ else }}Aller au contenu{{ end }}</a>
