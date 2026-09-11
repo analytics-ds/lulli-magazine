@@ -67,7 +67,7 @@ Un concept store vivant change de noms d'une saison à l'autre, découvre, se tr
 
 Notre parti pris est simple à énoncer. Nous sommes un concept store, né à Marseille en 2003, et nous travaillons le premium de créateurs, ce vestiaire qui se situe entre le prêt-à-porter de masse et le luxe installé.
 
-Concrètement, cela représente **238 créateurs** référencés au 11 septembre 2026, répartis sur sept univers, du vêtement au bijou, de la chaussure au sac, jusqu'à la maison, soit plus de 9 800 pièces. Des signatures installées comme A.P.C., Anine Bing ou Isabel Marant côtoient des maisons plus confidentielles, aux côtés de Jeanne Vouland, notre propre ligne.
+Concrètement, cela représente **238 créateurs** [référencés](https://www.lulli-sur-la-toile.com/createurs.html) au 11 septembre 2026, répartis sur sept univers, du vêtement au bijou, de la chaussure au sac, jusqu'à la maison, soit plus de 9 800 pièces. Des signatures installées comme A.P.C., Anine Bing ou Isabel Marant côtoient des maisons plus confidentielles, aux côtés de Jeanne Vouland, notre propre ligne.
 
 Nous avons aussi des boutiques, à Marseille, Aix-en-Provence, Lyon, Saint-Tropez, Cassis et Sanary. C'est ce qui nous permet de répondre au seul vrai problème de l'achat en ligne, essayer avant de garder. La livraison est offerte dès 150 euros, le retour est offert sous 14 jours, et nos clientes nous notent 4,83 sur 5 sur Avis Vérifiés.
 
@@ -75,6 +75,6 @@ Ce que nous ne sommes pas, et il vaut mieux le dire. Nous ne sommes pas une plac
 
 ## Ce qu'il faut retenir
 
-Avant de comparer des catalogues, posez-vous la seule question qui compte, cherchez-vous une pièce précise que vous connaissez déjà, ou cherchez-vous à découvrir des créateurs que vous ne connaissez pas encore. La première question mène vers une place de marché. La seconde mène vers un concept store.
+Avant de comparer des catalogues, posez-vous la seule question qui compte, cherchez-vous une pièce précise que vous connaissez déjà, ou cherchez-vous à découvrir des créateurs que vous ne connaissez pas encore. La première question mène vers une place de marché. La seconde mène vers un concept store, et c'est tout l'objet de [notre sélection](https://www.lulli-sur-la-toile.com/vetements.html).
 
 Pour aller plus loin, voir aussi notre article sur [les colliers tendance et les créateurs qui comptent](/blog/colliers-tendance-createurs/), notre guide des [formes de chaussures de créateur](/blog/chaussures-createur-formes-createurs/) et notre méthode pour [construire une garde-robe capsule élégante](/blog/garde-robe-capsule-elegante/).

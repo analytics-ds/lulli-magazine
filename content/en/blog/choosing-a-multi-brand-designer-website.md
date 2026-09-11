@@ -67,7 +67,7 @@ A living concept store changes names from season to season, discovers, sometimes
 
 Our position is simple to state. We are a concept store, founded in Marseille in 2003, and we work the premium designer segment, the wardrobe that sits between mass-market ready-to-wear and established luxury.
 
-In practice that means **238 designers** listed as of 11 September 2026, across seven categories, from clothing to jewellery, shoes to bags, through to homeware, more than 9,800 pieces in total. Established signatures such as A.P.C., Anine Bing or Isabel Marant sit alongside quieter houses, and alongside Jeanne Vouland, our own line.
+In practice that means **238 designers** [listed](https://www.lulli-sur-la-toile.com/createurs.html) as of 11 September 2026, across seven categories, from clothing to jewellery, shoes to bags, through to homeware, more than 9,800 pieces in total. Established signatures such as A.P.C., Anine Bing or Isabel Marant sit alongside quieter houses, and alongside Jeanne Vouland, our own line.
 
 We also have shops, in Marseille, Aix-en-Provence, Lyon, Saint-Tropez, Cassis and Sanary. That is what lets us answer the one real problem of online shopping, trying a piece on before keeping it. Shipping is free from 150 euros, returns are free within 14 days, and our customers rate us 4.83 out of 5 on Avis Vérifiés.
 
@@ -75,6 +75,6 @@ What we are not, and it is better said plainly. We are not a luxury marketplace,
 
 ## What to take away
 
-Before comparing catalogues, ask the only question that matters, are you looking for a specific piece you already know, or are you looking to discover designers you do not know yet. The first question leads to a marketplace. The second leads to a concept store.
+Before comparing catalogues, ask the only question that matters, are you looking for a specific piece you already know, or are you looking to discover designers you do not know yet. The first question leads to a marketplace. The second leads to a concept store, which is exactly what [our selection](https://www.lulli-sur-la-toile.com/vetements.html) is built for.
 
 To go further, see our article on [trendy necklaces and the designers behind them](/en/blog/trendy-necklaces-designers/), our guide to [designer shoe shapes](/en/blog/designer-shoes-shapes-and-makers/) and our method for [building an elegant capsule wardrobe](/en/blog/how-to-build-a-capsule-wardrobe/).
