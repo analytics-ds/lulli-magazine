@@ -47,8 +47,10 @@ Infos cles :
 
 - [ ] Ajouter les SOUS-CATEGORIES par univers (bijoux, chaussures, sacs, vetement, maison...) sous les 4 rubriques de header, une fois la roadmap calee
 - [ ] Remplir `roadmap.yaml` a partir du Sheet de prompts GEO (clusters valides par le client) + Haloscan, filtre Bourrelly par entree
-- [ ] `/github-setup` : creer le repo `analytics-ds/lulli-magazine` + activer GitHub Pages
-- [ ] Connecter le sous-domaine `magazine.lulli-sur-la-toile.com` cote client (CNAME) — a demander a Elodie / Bastien (PH2M)
+- [x] Repo GitHub `analytics-ds/lulli-magazine` cree + GitHub Pages actif (Actions). Git en place dans le Drive (remote analytics-ds@, credential store).
+- [x] Deploye en PHASE PREVIEW sur https://analytics-ds.github.io/lulli-magazine/ (baseURL github.io, CNAME retire temporairement). Build OK, tout repond 200.
+- [x] GO-LIVE domaine custom fait le 2026-09-11 : `static/CNAME` re-ajoute, baseURL du workflow rebascule sur `https://magazine.lulli-sur-la-toile.com/`, custom domain defini dans les settings Pages.
+- [x] Cote client : DNS CNAME `magazine` -> `analytics-ds.github.io` pose, verifie le 2026-09-11.
 - [ ] Valider la DA avec le client (ou en interne) avant mise en ligne publique
 - [ ] Remplacer/ameliorer l'image de l'article exemple (visuel editorial Lulli plutot que la photo Openverse actuelle)
 - [ ] 1er batch `/create-article-seo` (Opus 4.8) une fois la roadmap remplie

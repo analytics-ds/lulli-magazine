@@ -42,7 +42,7 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-        run: hugo --gc --minify --baseURL "https://analytics-ds.github.io/lulli-magazine/"
+        run: hugo --gc --minify --baseURL "https://magazine.lulli-sur-la-toile.com/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
