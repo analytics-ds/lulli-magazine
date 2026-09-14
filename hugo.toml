@@ -13,12 +13,12 @@ enableGitInfo = false
 [languages]
   [languages.fr]
     languageCode = "fr-FR"
-    languageName = "Francais"
+    languageName = "Français"
     weight = 1
     title = "Le Magazine Lulli"
     contentDir = "content/fr"
     [languages.fr.params]
-      description = "Le magazine de Lulli sur la Toile : conseils, inspirations, createurs et idees cadeaux par le concept store."
+      description = "Le magazine de Lulli sur la Toile, conseils, inspirations, créateurs et idées cadeaux par le concept store."
 
   [languages.en]
     languageCode = "en-US"
@@ -90,6 +90,7 @@ enableGitInfo = false
   default_og_image = "images/og-default.svg"
   og_locale_alternate = "en_US"
   parentBrandUrl = "https://www.lulli-sur-la-toile.com/"
+  googleSiteVerification = "i0PrJItMbxaflVx9y-1SUIq2BWaMZ6G05rR2toaVYks"
   expertise = ["Mode femme", "Créateurs", "Style et tendances", "Idées cadeaux", "Art de vivre"]
 
 [markup]

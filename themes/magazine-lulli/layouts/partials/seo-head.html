@@ -1,3 +1,6 @@
+{{/* Verification de propriete Google Search Console */}}
+{{ with site.Params.googleSiteVerification }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
+
 <!-- Canonical -->
 <link rel="canonical" href="{{ .Permalink }}">
 
