@@ -75,10 +75,11 @@ Controle fait en direct pour trancher si le magazine entre dans le run GEO Lulli
 - 4 articles FR en ligne au 14/09 : garde-robe-capsule-elegante, colliers-tendance-createurs, chaussures-createur-formes-createurs, choisir-site-multimarque-createurs.
 
 **Ce qui bloque une entree immediate**
-- [ ] **Pas indexe du tout.** `inspect_url` sur l'article capsule renvoie "URL is unknown to Google". Le site a 3 jours d'anciennete sur son domaine custom, c'est attendu, mais tant que ce n'est pas leve le magazine ne peut peser sur aucun prompt.
-- [ ] **Le sitemap du magazine n'est pas soumis en GSC.** Seuls les 4 sitemaps du www le sont. Soumettre `https://magazine.lulli-sur-la-toile.com/sitemap.xml` sur la propriete sc-domain.
-- [ ] **`robots.txt` reduit a `User-agent: *`**, sans ligne `Sitemap:`. A completer.
-- [ ] **`llms.txt` desynchronise du site.** Il annonce les rubriques "Le Vestiaire / Rencontres / Art de Vivre / Idees Cadeaux" alors que le site porte "Conseils / Inspirations / Createurs / Idees Cadeaux". C'est la carte que lisent les LLM, elle est fausse aujourd'hui.
+- [ ] **Toujours pas indexe.** `inspect_url` renvoie "URL is unknown to Google". Le sitemap est soumis, la decouverte suit son cours. L'Indexing API n'est pas activable ici (elle ne couvre officiellement que JobPosting et BroadcastEvent), donc pas de raccourci par la.
+- [ ] **Aucun lien entrant depuis le site principal.** Verifie le 2026-09-14, `www.lulli-sur-la-toile.com` ne pointe vers le magazine nulle part, alors que le magazine envoie 3 liens vers la boutique depuis sa seule home. C'est le vrai frein a la decouverte. Demander a l'agence Magento un lien dans le footer du site marchand.
+- [x] **Sitemap soumis en GSC le 2026-09-14** sur `sc-domain:lulli-sur-la-toile.com` via l'API (PUT sitemaps, 204). Confirme cote GSC, 0 erreur et 0 warning.
+- [x] **`robots.txt` corrige le 2026-09-14.** La cause n'etait pas le fichier mais le build. `enableRobotsTXT = true` + Hugo 0.139 cote CI faisait generer a Hugo son robots.txt par defaut, qui ecrasait `static/robots.txt`. Le local en 0.160 ne reproduisait pas le bug. Flag passe a `false`, le fichier complet est desormais servi en ligne (Allow, 6 crawlers IA, ligne Sitemap).
+- [x] **`llms.txt` recale le 2026-09-14.** Rubriques remises sur Conseils / Inspirations / Createurs / Idees Cadeaux, ajout des 4 articles FR et EN avec leur resume, de la navigation, du lien boutiques et du Wikidata Q140656973. Les 11 URLs citees repondent toutes en 200.
 - [ ] **Volume insuffisant.** 4 articles ne pesent pas en GEO. La `roadmap.yaml` est toujours vide, donc aucune production planifiee.
 - [ ] **DA toujours pas validee par le client** avant mise en avant publique.
 
