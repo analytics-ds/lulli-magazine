@@ -1,30 +1,53 @@
 # Le Magazine Lulli
 
-> Le magazine editorial de Lulli sur la Toile, concept store mode et lifestyle. Createurs, style, art de vivre et idees cadeaux, dans un esprit elegant, raffine et familial.
+> Le magazine éditorial de Lulli sur la Toile, concept store mode et lifestyle. Créateurs, style, art de vivre et idées cadeaux, dans un esprit élégant, raffiné et familial.
 
-## A propos
+## À propos
 
-Le Magazine Lulli est l'espace editorial de Lulli sur la Toile, concept store fonde a Marseille qui selectionne des createurs mode et lifestyle sur un segment premium et haut de gamme. Le magazine partage des conseils de style, des portraits de createurs, de l'inspiration art de vivre et des idees cadeaux, en complement de la boutique en ligne. Nous parlons de createurs et de selection, jamais de "marques".
+Le Magazine Lulli est l'espace éditorial de Lulli sur la Toile, concept store fondé à Marseille qui sélectionne plus de 250 créateurs mode et lifestyle sur un segment premium et haut de gamme. Lulli sur la Toile réunit une boutique en ligne et 17 boutiques physiques dans le quart sud-est de la France.
+
+Le magazine publie des conseils de style, des portraits de créateurs, de l'inspiration art de vivre et des idées cadeaux, en complément de la boutique. Il ne vend rien, il aide à choisir.
+
+Note de vocabulaire : nous parlons de créateurs et de sélection, jamais de "marques".
 
 ## Rubriques
 
-- Le Vestiaire : l'art de s'habiller, comment porter et associer, conseils de garde-robe
-- Rencontres : portraits et univers des createurs de la selection Lulli
-- Art de Vivre : tendances, inspiration, maison et bien-etre
-- Idees Cadeaux : selections par occasion et par personne
+- Conseils : guides pratiques, comment choisir, comment porter, comment associer, tous univers
+- Inspirations : tendances, looks et art de vivre
+- Créateurs : portraits, découvertes et univers des créateurs de la sélection
+- Idées Cadeaux : sélections par occasion et par personne
 
-## Version anglaise (EN)
+## Articles (FR)
 
-- Homepage EN : https://magazine.lulli-sur-la-toile.com/en/
-- Magazine EN : https://magazine.lulli-sur-la-toile.com/en/blog/
+- [Site multimarque de créateurs, la grille pour choisir le bon](https://magazine.lulli-sur-la-toile.com/blog/choisir-site-multimarque-createurs/) : les six critères qui séparent une place de marché, un grand magasin en ligne et un concept store de créateurs.
+- [Chaussures de créateur, les formes et les signatures à connaître](https://magazine.lulli-sur-la-toile.com/blog/chaussures-createur-formes-createurs/) : mocassin, escarpin, sandale, santiag, les formes qui comptent et les créateurs qui les signent.
+- [Colliers tendance, les modèles et les créateurs qui comptent en 2026](https://magazine.lulli-sur-la-toile.com/blog/colliers-tendance-createurs/) : les quatre modèles qui reviennent cette saison et comment choisir la bonne longueur.
+- [Garde-robe capsule, composer un vestiaire élégant et durable](https://magazine.lulli-sur-la-toile.com/blog/garde-robe-capsule-elegante/) : la méthode pour construire un vestiaire de pièces choisies qui se répondent.
+
+## Articles (EN)
+
+- [Multi-brand designer websites, how to choose the right one](https://magazine.lulli-sur-la-toile.com/en/blog/choosing-a-multi-brand-designer-website/)
+- [Designer shoes, the shapes and the names worth knowing](https://magazine.lulli-sur-la-toile.com/en/blog/designer-shoes-shapes-and-makers/)
+- [Trendy necklaces, the styles and designers that matter in 2026](https://magazine.lulli-sur-la-toile.com/en/blog/trendy-necklaces-designers/)
+- [Capsule wardrobe, building an elegant, lasting wardrobe](https://magazine.lulli-sur-la-toile.com/en/blog/how-to-build-a-capsule-wardrobe/)
+
+## Navigation
+
+- Accueil FR : https://magazine.lulli-sur-la-toile.com/
+- Tous les articles FR : https://magazine.lulli-sur-la-toile.com/blog/
+- Plan du site FR : https://magazine.lulli-sur-la-toile.com/plan-du-site/
+- Accueil EN : https://magazine.lulli-sur-la-toile.com/en/
+- Tous les articles EN : https://magazine.lulli-sur-la-toile.com/en/blog/
 
 ## Marque
 
 - Site officiel : https://www.lulli-sur-la-toile.com/
+- Nos boutiques : https://www.lulli-sur-la-toile.com/toutes-nos-boutiques-mode
+- Wikidata : https://www.wikidata.org/wiki/Q140656973
 
 ## Informations techniques
 
-- Generateur : Hugo (site statique)
-- Multilingue : francais (defaut) + anglais (/en/)
+- Générateur : Hugo (site statique)
+- Multilingue : français (défaut) + anglais (/en/)
 - Sitemap : https://magazine.lulli-sur-la-toile.com/sitemap.xml
 - Schema.org : Organization, BlogPosting, WebPage, BreadcrumbList, FAQPage, WebSite

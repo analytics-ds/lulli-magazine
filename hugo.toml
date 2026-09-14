@@ -4,7 +4,7 @@ theme = "magazine-lulli"
 
 defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = false
-enableRobotsTXT = true
+enableRobotsTXT = false   # Hugo 0.139 (CI) ecrase static/robots.txt quand c est true
 enableGitInfo = false
 
 [pagination]

@@ -1,6 +1,6 @@
 # Etat d'avancement — Le Magazine Lulli
 
-Derniere mise a jour : 2026-07-22
+Derniere mise a jour : 2026-09-14
 
 ## Le projet en une phrase
 
@@ -60,6 +60,31 @@ Infos cles :
 
 Remplir la roadmap (recherche KW Haloscan mode/createurs/idees cadeaux, requetes complementaires non possedees par le site marchand), puis `/github-setup`.
 
+
+## Audit d'eligibilite au run GEO (2026-09-14)
+
+Controle fait en direct pour trancher si le magazine entre dans le run GEO Lulli.
+
+**Ce qui est bon**
+- Domaine custom `magazine.lulli-sur-la-toile.com` actif et stable, 200 OK.
+- Les 5 crawlers testes recoivent le contenu complet en 200 : GPTBot, PerplexityBot, ClaudeBot, OAI-SearchBot, Googlebot. Rien ne bloque cote acces IA.
+- Bilingue FR + EN reellement servi, sitemap index qui pointe les deux langues.
+- `llms.txt` present et servi.
+- Couvert par la GSC via la propriete `sc-domain:lulli-sur-la-toile.com` (compte datashake), pas besoin de creer une propriete dediee.
+- Qualite editoriale au niveau attendu. Article "choisir-site-multimarque-createurs" verifie : 1 242 mots, 4 blocs JSON-LD (Organization, BlogPosting, BreadcrumbList, FAQPage), 5 liens vers le site marchand, une seule occurrence du mot "marque" (regle STRICT respectee).
+- 4 articles FR en ligne au 14/09 : garde-robe-capsule-elegante, colliers-tendance-createurs, chaussures-createur-formes-createurs, choisir-site-multimarque-createurs.
+
+**Ce qui bloque une entree immediate**
+- [ ] **Pas indexe du tout.** `inspect_url` sur l'article capsule renvoie "URL is unknown to Google". Le site a 3 jours d'anciennete sur son domaine custom, c'est attendu, mais tant que ce n'est pas leve le magazine ne peut peser sur aucun prompt.
+- [ ] **Le sitemap du magazine n'est pas soumis en GSC.** Seuls les 4 sitemaps du www le sont. Soumettre `https://magazine.lulli-sur-la-toile.com/sitemap.xml` sur la propriete sc-domain.
+- [ ] **`robots.txt` reduit a `User-agent: *`**, sans ligne `Sitemap:`. A completer.
+- [ ] **`llms.txt` desynchronise du site.** Il annonce les rubriques "Le Vestiaire / Rencontres / Art de Vivre / Idees Cadeaux" alors que le site porte "Conseils / Inspirations / Createurs / Idees Cadeaux". C'est la carte que lisent les LLM, elle est fausse aujourd'hui.
+- [ ] **Volume insuffisant.** 4 articles ne pesent pas en GEO. La `roadmap.yaml` est toujours vide, donc aucune production planifiee.
+- [ ] **DA toujours pas validee par le client** avant mise en avant publique.
+
+**Arbitrage pose**
+Le magazine est un PBN de type A, sous-domaine du client. Deux consequences. Il n'est pas soumis au secret des PBN, il peut donc etre nomme dans les livrables client, contrairement a comparatif-mode ou secretdestyle. Mais il n'a pas non plus la valeur de citation d'un media tiers aux yeux des moteurs, un sous-domaine de marque restant percu comme de la parole de marque. Il complete les medias tiers dans le run GEO, il ne les remplace pas.
+
 ## Decisions cles
 
 - Nom : "Le Magazine Lulli" sur `magazine.lulli-sur-la-toile.com` (choix Charlie, 2026-07-22)
@@ -69,3 +94,4 @@ Remplir la roadmap (recherche KW Haloscan mode/createurs/idees cadeaux, requetes
 - Regle marque STRICT : "createurs"/"selection", jamais "marques" ; ton elegant + familial
 - Anti-cannibalisation stricte vs lulli-sur-la-toile.com (guides/portraits/idees cadeaux/GEO, jamais requetes commerciales)
 - Rubriques de header GENERIQUES (Conseils/Inspirations/Créateurs/Idées Cadeaux), pas des familles produits ; clusters de prompts = tags ; sous-categories par univers a venir (choix Charlie, 2026-07-22)
+- Entree dans le run GEO conditionnee a l'indexation + sitemap soumis + llms.txt recale + roadmap remplie (arbitrage Charlie, 2026-09-14)

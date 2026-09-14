@@ -1,10 +1,10 @@
 ---
-title: "Garde-robe capsule : composer un vestiaire elegant et durable"
+title: "Garde-robe capsule, composer un vestiaire élégant et durable"
 translationKey: "garde-robe-capsule"
 date: "2026-07-21"
 lastmod: "2026-07-22"
 publishDate: "2026-07-21"
-description: "Comment composer une garde-robe capsule elegante et durable : la methode de Lulli pour construire un vestiaire de pieces choisies qui se repondent."
+description: "Comment composer une garde-robe capsule élégante et durable, la méthode de Lulli pour construire un vestiaire de pièces choisies qui se répondent."
 categories: ["Conseils"]
 tags: ["garde-robe capsule", "vestiaire", "style", "pieces intemporelles", "createurs"]
 author: "magalie-ergoz"
