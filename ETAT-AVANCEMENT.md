@@ -93,7 +93,10 @@ Le magazine est un PBN de type A, sous-domaine du client. Deux consequences. Il 
 - Pas de TXT DNS pose sur `magazine.lulli-sur-la-toile.com` (verifie, seul le CNAME vers analytics-ds.github.io existe), et le domaine racine porte 3 autres tokens sans rapport. Methode retenue : **balise meta**, qu'on maitrise cote depot, plutot que le DNS qui aurait demande une action du client.
 - Meta posee dans `themes/magazine-lulli/layouts/partials/seo-head.html`, pilotee par `params.googleSiteVerification` de `hugo.toml`. Servie sur les 63 pages, FR et EN, verifie en ligne.
 - Propriete `https://magazine.lulli-sur-la-toile.com/` **creee** via l'API (PUT /webmasters/v3/sites, 204). Elle ressort en `siteUnverifiedUser`.
-- [ ] **Validation a finir a la main.** L'API Site Verification renvoie 403, le refresh token GSC datashake ne porte que les scopes `webmasters`, `webmasters.readonly` et `indexing`, pas `siteverification`. Charlie clique Valider dans l'interface GSC, la balise est en place donc ca passe immediatement.
+- **Deux preuves de propriete en ligne et verifiees le 2026-09-14**, les deux methodes restent ouvertes cote interface, l'une ou l'autre suffit :
+  - balise meta, token `i0PrJItMbxaflVx9y-1SUIq2BWaMZ6G05rR2toaVYks`, sur les 63 pages ;
+  - fichier `static/google65f408abb8918f8a.html`, servi en 200 a la racine.
+- [ ] **Validation a finir a la main.** L'API Site Verification renvoie 403, le refresh token GSC datashake ne porte que les scopes `webmasters`, `webmasters.readonly` et `indexing`, pas `siteverification`. Charlie clique Valider dans l'interface GSC. Statut relu apres mise en ligne des deux preuves : toujours `siteUnverifiedUser`, le clic est bien la seule etape manquante.
 - [ ] Une fois validee, soumettre le sitemap sur cette propriete aussi. Il est deja soumis sur `sc-domain:lulli-sur-la-toile.com`.
 
 ## Decisions cles
