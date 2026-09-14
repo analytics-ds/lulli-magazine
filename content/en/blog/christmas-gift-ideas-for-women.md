@@ -29,6 +29,17 @@ Choosing a Christmas gift for a woman is rarely a question of budget. It is a qu
 
 Here is our selection, organised by budget rather than by category, because that is how the question actually comes up. All prices and stock levels were checked on 14 September 2026, and every piece listed here is available as we write.
 
+## The guide at a glance
+
+| Budget | What works best | A few price markers |
+|---|---|---|
+| **Under 50 euros** | Pouches, balms and skincare, diffusers, costume jewellery | Wouf pouch 30 euros, La Crique Beauty balm 14 euros, Wijck diffuser 35 euros |
+| **50 to 150 euros** | Candles, fragrance, cashmere, small leather goods | Baobab Collection candle 56 euros, Bon Parfumeur fragrance 60 euros, Kujten mittens 65 euros |
+| **150 to 400 euros** | Jewellery, leather goods, loafers, knitwear | Aurélie Bidermann ring 160 euros, Jérôme Dreyfuss purse 180 euros, Sebago loafer 239 euros |
+| **400 euros and above** | Bags, signature trainers, gold jewellery | Jérôme Dreyfuss bag from 480 euros, Golden Goose trainers 485 euros, Ginette NY ring 575 euros |
+
+And a short answer to the questions that come up most. The safest gift, across every bracket, is a candle or a home fragrance, because it raises no question of size or fit. The riskiest is a ring, which requires knowing her finger size. For a woman who already has everything, the signature piece she would not buy for herself works better than novelty.
+
 ## Under 50 euros, small gestures that last
 
 This is the budget for a colleague, a Secret Santa, an end-of-meal gesture. The challenge is simple. You have to avoid the object that ends up in a drawer.

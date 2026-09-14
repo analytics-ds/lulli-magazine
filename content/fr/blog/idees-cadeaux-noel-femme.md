@@ -29,6 +29,17 @@ Choisir un cadeau de Noël pour une femme est rarement une question de budget. C
 
 Voici donc notre sélection, organisée par budget plutôt que par catégorie, parce que c'est de cette façon que la question se pose vraiment. Tous les prix et toutes les disponibilités ont été relevés le 14 septembre 2026, et chaque pièce citée est en stock au moment où nous écrivons.
 
+## Le guide en un coup d'oeil
+
+| Budget | Ce qui marche le mieux | Quelques repères de prix |
+|---|---|---|
+| **Moins de 50 euros** | Trousse, baume et soin, diffuseur, bijou fantaisie | Trousse Wouf 30 euros, baume La Crique Beauty 14 euros, diffuseur Wijck 35 euros |
+| **50 à 150 euros** | Bougie, parfum, cachemire, petite maroquinerie | Bougie Baobab Collection 56 euros, parfum Bon Parfumeur 60 euros, mitaines Kujten 65 euros |
+| **150 à 400 euros** | Bijou, maroquinerie, mocassin, maille | Bague Aurélie Bidermann 160 euros, porte-monnaie Jérôme Dreyfuss 180 euros, mocassin Sebago 239 euros |
+| **400 euros et plus** | Sac, basket signée, bijou en or | Sac Jérôme Dreyfuss à partir de 480 euros, basket Golden Goose 485 euros, bague Ginette NY 575 euros |
+
+Et une réponse courte pour les questions qui reviennent le plus. Le cadeau le plus sûr, toutes tranches confondues, est la bougie ou le parfum d'intérieur, parce qu'il ne pose ni question de taille ni question de pointure. Le plus risqué est la bague, qui demande de connaître le tour de doigt. Pour une femme qui a déjà tout, la pièce signée qu'elle ne s'achèterait pas elle-même fonctionne mieux que la nouveauté.
+
 ## Moins de 50 euros, les petites attentions qui tiennent
 
 C'est le budget du collègue, du Secret Santa, de la sous-tasse de fin de repas. L'enjeu y est simple. Il faut éviter l'objet qui finit dans un tiroir.
