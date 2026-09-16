@@ -1,6 +1,6 @@
 # Roadmap editoriale evergreen — Le Magazine Lulli (magazine.lulli-sur-la-toile.com)
 #
-# Methode 2 du systeme PBN GEO datashake : production locale en batch via la
+# Production locale en batch via la
 # skill /create-article-seo (Opus 4.8, brief SEO complet avant chaque redaction),
 # publication differee via publishDate + GitHub Actions cron (mardi + vendredi 3h Paris).
 #
