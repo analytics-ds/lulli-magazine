@@ -2,15 +2,15 @@
 title: "Garde-robe capsule, composer un vestiaire élégant et durable"
 translationKey: "garde-robe-capsule"
 date: "2026-07-21"
-lastmod: "2026-07-22"
+lastmod: "2026-09-17"
 publishDate: "2026-07-21"
 description: "Comment composer une garde-robe capsule élégante et durable, la méthode de Lulli pour construire un vestiaire de pièces choisies qui se répondent."
 categories: ["Conseils"]
 tags: ["garde-robe capsule", "vestiaire", "style", "pieces intemporelles", "createurs"]
 author: "magalie-ergoz"
 image: "images/blog/garde-robe-capsule-elegante.webp"
-imageAlt: "Sélection de pièces de vêtements suspendues, dans des tons neutres et harmonieux"
-imageCredit: "Photo Trevor Butcher via Flickr (CC BY 2.0)"
+imageAlt: "Tee-shirt blanc et pull rayé marine noué sur les épaules, pièces intemporelles d'une garde-robe capsule"
+imageCredit: "© Lulli sur la Toile"
 faq:
   - question: "Combien de pièces compte une garde-robe capsule ?"
     answer: "Il n'y a pas de chiffre absolu, mais un ensemble de trente à quarante pièces couvre en général toutes les occasions d'une saison. L'essentiel n'est pas le nombre, c'est la cohérence. Chaque pièce doit pouvoir s'associer à au moins trois autres, sinon elle reste orpheline dans le placard."

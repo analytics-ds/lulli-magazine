@@ -2,15 +2,15 @@
 title: "Capsule wardrobe: building an elegant, lasting wardrobe"
 translationKey: "garde-robe-capsule"
 date: "2026-07-21"
-lastmod: "2026-07-22"
+lastmod: "2026-09-17"
 publishDate: "2026-07-21"
 description: "How to build an elegant, lasting capsule wardrobe: Lulli's method for a wardrobe of chosen pieces that speak to one another."
 categories: ["Advice"]
 tags: ["capsule wardrobe", "wardrobe", "style", "timeless pieces", "designers"]
 author: "magalie-ergoz"
 image: "images/blog/garde-robe-capsule-elegante.webp"
-imageAlt: "A curated selection of clothing pieces hanging, in neutral, harmonious tones"
-imageCredit: "Photo Trevor Butcher via Flickr (CC BY 2.0)"
+imageAlt: "White tee and navy striped sweater tied over the shoulders, timeless pieces of a capsule wardrobe"
+imageCredit: "© Lulli sur la Toile"
 faq:
   - question: "How many pieces make up a capsule wardrobe?"
     answer: "There is no absolute number, but a set of thirty to forty pieces usually covers every occasion in a season. What matters is not the count, it is coherence. Each piece should pair with at least three others, otherwise it stays orphaned in the closet."
