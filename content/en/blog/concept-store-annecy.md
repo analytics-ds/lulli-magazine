@@ -9,7 +9,7 @@ categories: ["Inspiration"]
 tags: ["Annecy", "concept store", "designers", "boutique", "local"]
 author: "magalie-ergoz"
 image: "images/blog/concept-store-annecy.webp"
-imageAlt: "Oak shelves in the Lulli boutique in Annecy, with bags, baskets, shoes and vases"
+imageAlt: "Light wood shelves in the Lulli boutique in Annecy, with bags, baskets, shoes and vases"
 imageCredit: "© Lulli sur la Toile"
 faq:
   - question: "Where is the Lulli boutique in Annecy?"
@@ -42,15 +42,15 @@ Many concept stores have opened in Annecy in recent years, and each has its own 
 
 Our [Annecy boutique](https://www.lulli-sur-la-toile.com/toutes-nos-boutiques-mode/annecy) sits on rue de la Poste, in the gentle rhythm of the town centre, where people take their time before heading down to the lake. We designed it as a pause, a bright space with sober lines, where discreet materials and soft tones leave all the room to the pieces.
 
-Light oak furniture frames the bags, baskets and shoes, and you move around naturally, without endless aisles. People often come in for one piece and stay for the atmosphere.
+Light wood furniture frames the bags, baskets and shoes, and you move around naturally, without endless aisles. People often come in for one piece and stay for the atmosphere.
 
 ## The designers you will find there
 
-The selection shown in Annecy brings together names you will find across our network and a few designers we chose to feature here: Anine Bing, adidas, Asics, [Dragon Diffusion](https://www.lulli-sur-la-toile.com/createurs/dragon.html), Forte_Forte, Fugazzi, [Golden Goose](https://www.lulli-sur-la-toile.com/createurs/golden-goose.html), Ibeliv, [Isabel Marant](https://www.lulli-sur-la-toile.com/createurs/isabel-marant-1.html), New Balance, Sebago and Assouline editions.
+The selection shown in Annecy brings together names you will find across our network. Here we chose to feature Anine Bing, adidas, Asics, [Dragon Diffusion](https://www.lulli-sur-la-toile.com/createurs/dragon.html), Forte_Forte, Fugazzi, [Golden Goose](https://www.lulli-sur-la-toile.com/createurs/golden-goose.html), Ibeliv, [Isabel Marant](https://www.lulli-sur-la-toile.com/createurs/isabel-marant-1.html), New Balance, Sebago and Assouline editions.
 
 To give you an idea of the selection, here are a few pieces from these designers, available on our website on 28 September 2026:
 
-- The Golden Goose [Super-Star Cream Black Gold](https://www.lulli-sur-la-toile.com/baskets-super-star-creme-noir-dore.html) sneakers, 520 euros
+- The Golden Goose [Super-Star Crème Noir Doré](https://www.lulli-sur-la-toile.com/baskets-super-star-creme-noir-dore.html) sneakers, 520 euros
 - The Dragon Diffusion [Japan Tote](https://www.lulli-sur-la-toile.com/sac-japan-tote-cuir-dark-brown.html) in dark brown leather, 465 euros
 - The black Isabel Marant [Oskan Moon bag](https://www.lulli-sur-la-toile.com/sac-oskan-moon-black.html), 690 euros
 - The Ibeliv [Pure Medium bag](https://www.lulli-sur-la-toile.com/sac-pure-medium-tan.html) in tan, 420 euros, and its small [Pineapple bag charm](https://www.lulli-sur-la-toile.com/bag-charm-pineapple.html), 45 euros
@@ -68,11 +68,11 @@ A visit to Annecy does not end on rue de la Poste. Between two fittings, here ar
 - **Café Brumes**, an intimate and cosy coffee shop, for a speciality coffee in peace.
 - **Le bistrot du port**, for seasonal French cooking in an idyllic setting.
 - **Ô Savoyard**, by the canal, for the great Savoyard specialities.
-- **Lake Annecy**, quite simply, for a walk between two fittings.
+- **Lake Annecy**, quite simply, for a walk by the water.
 
 ## Order, try on, collect
 
-A piece spotted on our website can be reserved and collected on rue de la Poste with Click and Collect, so you can try it on before taking it home. If you prefer delivery, shipping is free from 150 euros, and you have 14 days for a free return. Payment in three or four instalments is available, and our boutiques and website as a whole are rated 4.83 out of 5 by our clients.
+A piece spotted on our website can be reserved and collected on rue de la Poste with Click and Collect, so you can try it on before taking it home. If you prefer delivery, shipping is free from 150 euros, and you have 14 days for a free return. Payment in three or four instalments is available, and our website is rated 4.83 out of 5 by our clients in verified reviews.
 
 ## Other addresses to know in Annecy
 

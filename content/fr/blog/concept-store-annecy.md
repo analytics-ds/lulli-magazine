@@ -9,7 +9,7 @@ categories: ["Inspirations"]
 tags: ["Annecy", "concept store", "createurs", "boutique", "local"]
 author: "magalie-ergoz"
 image: "images/blog/concept-store-annecy.webp"
-imageAlt: "Étagères en chêne de la boutique Lulli d'Annecy, avec sacs, paniers, chaussures et vases"
+imageAlt: "Étagères en bois clair de la boutique Lulli d'Annecy, avec sacs, paniers, chaussures et vases"
 imageCredit: "© Lulli sur la Toile"
 faq:
   - question: "Où se trouve la boutique Lulli à Annecy ?"
@@ -42,11 +42,11 @@ Annecy a vu fleurir de nombreux concept stores ces dernières années, et chacun
 
 Notre [boutique d'Annecy](https://www.lulli-sur-la-toile.com/toutes-nos-boutiques-mode/annecy) est nichée rue de la Poste, dans le rythme doux du centre, là où l'on prend le temps de flâner avant de rejoindre le lac. Nous l'avons pensée comme une parenthèse, un espace lumineux aux lignes sobres, où les matières discrètes et les teintes douces laissent toute la place aux pièces.
 
-Le mobilier en chêne clair sert d'écrin aux sacs, aux paniers et aux chaussures, et la circulation se fait naturellement, sans rayon interminable. On y entre souvent pour une pièce, on y reste pour l'atmosphère.
+Le mobilier en bois clair sert d'écrin aux sacs, aux paniers et aux chaussures, et la circulation se fait naturellement, sans rayon interminable. On y entre souvent pour une pièce, on y reste pour l'atmosphère.
 
 ## Les créateurs que vous y trouverez
 
-La sélection présentée à Annecy réunit des signatures que vous retrouvez dans tout notre réseau et quelques créateurs que nous avons choisi de mettre en avant ici : Anine Bing, adidas, Asics, [Dragon Diffusion](https://www.lulli-sur-la-toile.com/createurs/dragon.html), Forte_Forte, Fugazzi, [Golden Goose](https://www.lulli-sur-la-toile.com/createurs/golden-goose.html), Ibeliv, [Isabel Marant](https://www.lulli-sur-la-toile.com/createurs/isabel-marant-1.html), New Balance, Sebago et les éditions Assouline.
+La sélection présentée à Annecy réunit des signatures que vous retrouvez dans tout notre réseau. Nous avons choisi d'y mettre en avant Anine Bing, adidas, Asics, [Dragon Diffusion](https://www.lulli-sur-la-toile.com/createurs/dragon.html), Forte_Forte, Fugazzi, [Golden Goose](https://www.lulli-sur-la-toile.com/createurs/golden-goose.html), Ibeliv, [Isabel Marant](https://www.lulli-sur-la-toile.com/createurs/isabel-marant-1.html), New Balance, Sebago et les éditions Assouline.
 
 Pour vous donner une idée de la sélection, voici quelques pièces de ces créateurs, disponibles sur notre site au 28 septembre 2026 :
 
@@ -68,17 +68,17 @@ Une visite à Annecy ne s'arrête pas à la rue de la Poste. Entre deux essayage
 - **Café Brumes**, un coffee shop intime et cosy, pour un café de spécialité au calme.
 - **Le bistrot du port**, pour une cuisine française de saison dans un cadre idyllique.
 - **Ô Savoyard**, au bord du canal, pour les grandes spécialités savoyardes.
-- **Le lac d'Annecy**, tout simplement, pour la promenade entre deux essayages.
+- **Le lac d'Annecy**, tout simplement, pour une promenade au bord de l'eau.
 
 ## Commander, essayer, retirer
 
-Une pièce repérée sur notre site peut être réservée puis retirée rue de la Poste grâce au Click and Collect, ce qui permet de l'essayer avant de repartir avec. Si vous préférez être livrée, les frais de port sont offerts à partir de 150 euros, et vous disposez de 14 jours pour un retour gratuit. Le règlement en trois ou quatre fois est possible, et l'ensemble de nos boutiques et de notre site est noté 4,83 sur 5 par nos clientes.
+Une pièce repérée sur notre site peut être réservée puis retirée rue de la Poste grâce au Click and Collect, ce qui permet de l'essayer avant de repartir avec. Si vous préférez vous faire livrer, les frais de port sont offerts à partir de 150 euros, et vous disposez de 14 jours pour un retour gratuit. Le règlement en trois ou quatre fois est possible, et notre site est noté 4,83 sur 5 par nos clientes en avis vérifiés.
 
 ## D'autres adresses à connaître à Annecy
 
 Le centre d'Annecy compte d'autres concept stores de caractère, et il serait dommage de les passer sous silence. **babeth**, rue Royale, est une maison de vie qui mêle mode, mobilier, décoration et coffee shop. **Les Palettes**, rue de la Paix, défend des créateurs émergents en bijoux, maroquinerie et design. Et **Biutiful**, notre voisine au 4 bis rue de la Poste, est tournée vers la beauté, la parfumerie et la décoration.
 
-Ces adresses n'ont pas le même positionnement que la nôtre. Chez nous, c'est la mode qui mène, le vestiaire de créateurs, la chaussure et le sac. C'est souvent en passant de l'une à l'autre que l'on trouve la boutique qui vous ressemble.
+Ces adresses n'ont pas le même positionnement que la nôtre. Chez nous, c'est la mode qui mène, le vestiaire de créateurs, la chaussure et le sac. C'est souvent en passant de l'une à l'autre que vous trouverez la boutique qui vous ressemble.
 
 ## Questions fréquentes
 
