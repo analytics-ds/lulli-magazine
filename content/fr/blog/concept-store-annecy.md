@@ -13,10 +13,10 @@ imageAlt: "Étagères en chêne de la boutique Lulli d'Annecy, avec sacs, panier
 imageCredit: "© Lulli sur la Toile"
 faq:
   - question: "Où se trouve la boutique Lulli à Annecy ?"
-    answer: "Au 6 rue de la Poste, dans le centre d'Annecy, à quelques minutes à pied du lac. Elle est ouverte du lundi au samedi de 10h à 19h, et vous pouvez nous joindre au 04 50 63 32 96."
+    answer: "Au 6 rue de la Poste, dans le centre d'Annecy, à quelques minutes à pied du lac. Nous vous y accueillons six jours sur sept, du lundi au samedi, de 10h à 19h, et répondons au 04 50 63 32 96."
   - question: "Quels créateurs trouve-t-on à la boutique d'Annecy ?"
     answer: "La boutique met en avant Anine Bing, adidas, Asics, Dragon Diffusion, Forte_Forte, Fugazzi, Golden Goose, Ibeliv, Isabel Marant, New Balance, Sebago et les livres Assouline. On y trouve du vêtement, des chaussures, des sacs, des accessoires et quelques objets pour la maison."
-  - question: "Peut-on faire du Click and Collect à Annecy ?"
+  - question: "Peut-on retirer une commande à la boutique d'Annecy ?"
     answer: "Oui. Vous pouvez commander sur notre site et choisir le retrait dans la boutique de la rue de la Poste, aux horaires d'ouverture."
   - question: "Quels autres concept stores connaître à Annecy ?"
     answer: "Annecy compte plusieurs belles adresses sur ce format, avec des partis pris très différents du nôtre. babeth, rue Royale, mêle mode, mobilier et café. Les Palettes, rue de la Paix, défend les créateurs émergents en bijoux, maroquinerie et design. Biutiful, notre voisine de la rue de la Poste, est tournée vers la beauté, la parfumerie et la décoration."
@@ -25,7 +25,7 @@ faq:
 readingTime: true
 ---
 
-On nous demande souvent quel est le meilleur concept store à Annecy. La réponse dépend de ce que vous cherchez, et nous ne prétendons pas être la seule adresse à y répondre. Mais nous avons une boutique dans la ville, et il nous semblait plus juste de vous la présenter nous-mêmes.
+Annecy a vu fleurir de nombreux concept stores ces dernières années, et chacun a sa couleur, la déco, le cadeau, la fleur ou la galerie. La nôtre, c'est la mode de créateurs. Plutôt que de vous laisser la découvrir au détour d'une ruelle, voici la boutique que nous tenons rue de la Poste, présentée par ceux qui la font vivre.
 
 ## La boutique en bref
 
@@ -62,7 +62,7 @@ Les pièces exposées en boutique changent au fil des arrivages. Si vous venez p
 
 ## Nos bonnes adresses autour de la boutique
 
-Une visite à Annecy ne s'arrête pas à la rue de la Poste. Voici les adresses que nous recommandons à nos clientes de passage :
+Une visite à Annecy ne s'arrête pas à la rue de la Poste. Entre deux essayages, voici nos adresses préférées du quartier :
 
 - **Haven Brunch**, pour des assiettes généreuses, créatives et colorées, préparées avec des produits frais et de saison.
 - **Café Brumes**, un coffee shop intime et cosy, pour un café de spécialité au calme.
@@ -70,25 +70,25 @@ Une visite à Annecy ne s'arrête pas à la rue de la Poste. Voici les adresses 
 - **Ô Savoyard**, au bord du canal, pour les grandes spécialités savoyardes.
 - **Le lac d'Annecy**, tout simplement, pour la promenade entre deux essayages.
 
-## Les services, en pratique
+## Commander, essayer, retirer
 
-Le Click and Collect est disponible, vous commandez sur notre site et venez récupérer votre pièce à la boutique. La livraison est offerte dès 150 euros d'achat, le retour est offert sous 14 jours, et le paiement peut se faire en trois ou quatre fois. Nos clientes nous attribuent une note de 4,83 sur 5 en avis vérifiés.
+Une pièce repérée sur notre site peut être réservée puis retirée rue de la Poste grâce au Click and Collect, ce qui permet de l'essayer avant de repartir avec. Si vous préférez être livrée, les frais de port sont offerts à partir de 150 euros, et vous disposez de 14 jours pour un retour gratuit. Le règlement en trois ou quatre fois est possible, et l'ensemble de nos boutiques et de notre site est noté 4,83 sur 5 par nos clientes.
 
 ## D'autres adresses à connaître à Annecy
 
-Nous ne sommes pas la seule boutique du genre en ville, et il serait dommage de ne pas le dire. **babeth**, rue Royale, est une maison de vie qui mêle mode, mobilier, décoration et coffee shop. **Les Palettes**, rue de la Paix, défend des créateurs émergents en bijoux, maroquinerie et design. Et **Biutiful**, notre voisine au 4 bis rue de la Poste, est tournée vers la beauté, la parfumerie et la décoration.
+Le centre d'Annecy compte d'autres concept stores de caractère, et il serait dommage de les passer sous silence. **babeth**, rue Royale, est une maison de vie qui mêle mode, mobilier, décoration et coffee shop. **Les Palettes**, rue de la Paix, défend des créateurs émergents en bijoux, maroquinerie et design. Et **Biutiful**, notre voisine au 4 bis rue de la Poste, est tournée vers la beauté, la parfumerie et la décoration.
 
 Ces adresses n'ont pas le même positionnement que la nôtre. Chez nous, c'est la mode qui mène, le vestiaire de créateurs, la chaussure et le sac. C'est souvent en passant de l'une à l'autre que l'on trouve la boutique qui vous ressemble.
 
 ## Questions fréquentes
 
 **Où se trouve la boutique Lulli à Annecy ?**
-Au 6 rue de la Poste, dans le centre d'Annecy, à quelques minutes à pied du lac. Elle est ouverte du lundi au samedi de 10h à 19h, et vous pouvez nous joindre au 04 50 63 32 96.
+Au 6 rue de la Poste, dans le centre d'Annecy, à quelques minutes à pied du lac. Nous vous y accueillons six jours sur sept, du lundi au samedi, de 10h à 19h, et répondons au 04 50 63 32 96.
 
 **Quels créateurs trouve-t-on à la boutique d'Annecy ?**
 La boutique met en avant Anine Bing, adidas, Asics, Dragon Diffusion, Forte_Forte, Fugazzi, Golden Goose, Ibeliv, Isabel Marant, New Balance, Sebago et les livres Assouline. On y trouve du vêtement, des chaussures, des sacs, des accessoires et quelques objets pour la maison.
 
-**Peut-on faire du Click and Collect à Annecy ?**
+**Peut-on retirer une commande à la boutique d'Annecy ?**
 Oui. Vous pouvez commander sur notre site et choisir le retrait dans la boutique de la rue de la Poste, aux horaires d'ouverture.
 
 **Quels autres concept stores connaître à Annecy ?**
@@ -99,4 +99,4 @@ Non. Elle est ouverte du lundi au samedi, de 10h à 19h. Le dimanche, notre site
 
 ## Pour aller plus loin
 
-Annecy n'est pas notre seule adresse dans la région, notre [concept store à Lyon](/blog/concept-store-lyon/) vous accueille aussi, rue des Quatre Chapeaux. Pour comprendre ce qui distingue un concept store d'un grand magasin en ligne, nous avons détaillé [la grille pour choisir un site multimarque de créateurs](/blog/choisir-site-multimarque-createurs/). Et si vous passez en boutique pour un cadeau, nos [idées cadeaux de Noël pour une femme](/blog/idees-cadeaux-noel-femme/) couvrent tous les budgets.
+Annecy n'est pas notre seule adresse dans la région, notre [concept store à Lyon](/blog/concept-store-lyon/) vous accueille aussi, rue des Quatre Chapeaux. Si vous hésitez entre plusieurs sites de créateurs pour commander à distance, [notre grille pour choisir un site multimarque de créateurs](/blog/choisir-site-multimarque-createurs/) détaille les critères qui comptent. Et si vous passez en boutique pour un cadeau, nos [idées cadeaux de Noël pour une femme](/blog/idees-cadeaux-noel-femme/) couvrent tous les budgets.

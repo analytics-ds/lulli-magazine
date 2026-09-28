@@ -16,7 +16,7 @@ faq:
     answer: "At 6 rue de la Poste, in the centre of Annecy, a few minutes' walk from the lake. It is open Monday to Saturday from 10am to 7pm, and you can reach us on +33 4 50 63 32 96."
   - question: "Which designers can you find at the Annecy boutique?"
     answer: "The boutique features Anine Bing, adidas, Asics, Dragon Diffusion, Forte_Forte, Fugazzi, Golden Goose, Ibeliv, Isabel Marant, New Balance, Sebago and Assouline books. You will find clothing, shoes, bags, accessories and a few pieces for the home."
-  - question: "Is Click and Collect available in Annecy?"
+  - question: "Can I collect an order at the Annecy boutique?"
     answer: "Yes. You can order on our website and choose collection at the rue de la Poste boutique, during opening hours."
   - question: "Which other concept stores are worth knowing in Annecy?"
     answer: "Annecy has several fine addresses in this format, each with a very different approach from ours. babeth, rue Royale, combines fashion, furniture and a café. Les Palettes, rue de la Paix, champions emerging designers in jewellery, leather goods and design. Biutiful, our neighbour on rue de la Poste, focuses on beauty, fragrance and decoration."
@@ -25,7 +25,7 @@ faq:
 readingTime: true
 ---
 
-We are often asked which is the best concept store in Annecy. The answer depends on what you are looking for, and we do not claim to be the only address that answers it. But we have a boutique in the town, and it felt right to introduce it ourselves.
+Many concept stores have opened in Annecy in recent years, and each has its own colour, decoration, gifts, flowers or art. Ours is designer fashion. Rather than letting you stumble upon it down a side street, here is the boutique we run on rue de la Poste, introduced by the people who bring it to life.
 
 ## The boutique at a glance
 
@@ -62,7 +62,7 @@ The pieces on display in the boutique change with each delivery. If you are comi
 
 ## Our favourite places around the boutique
 
-A visit to Annecy does not end on rue de la Poste. Here are the places we recommend to clients passing through:
+A visit to Annecy does not end on rue de la Poste. Between two fittings, here are our favourite places in the neighbourhood:
 
 - **Haven Brunch**, for generous, creative and colourful plates made with fresh, seasonal produce.
 - **Café Brumes**, an intimate and cosy coffee shop, for a speciality coffee in peace.
@@ -70,13 +70,13 @@ A visit to Annecy does not end on rue de la Poste. Here are the places we recomm
 - **Ô Savoyard**, by the canal, for the great Savoyard specialities.
 - **Lake Annecy**, quite simply, for a walk between two fittings.
 
-## Services, in practice
+## Order, try on, collect
 
-Click and Collect is available, you order on our website and collect your piece at the boutique. Delivery is free from 150 euros, returns are free within 14 days, and you can pay in three or four instalments. Our clients give us a rating of 4.83 out of 5 in verified reviews.
+A piece spotted on our website can be reserved and collected on rue de la Poste with Click and Collect, so you can try it on before taking it home. If you prefer delivery, shipping is free from 150 euros, and you have 14 days for a free return. Payment in three or four instalments is available, and our boutiques and website as a whole are rated 4.83 out of 5 by our clients.
 
 ## Other addresses to know in Annecy
 
-We are not the only boutique of this kind in town, and it would be a shame not to say so. **babeth**, rue Royale, is a lifestyle house that combines fashion, furniture, decoration and a coffee shop. **Les Palettes**, rue de la Paix, champions emerging designers in jewellery, leather goods and design. And **Biutiful**, our neighbour at 4 bis rue de la Poste, focuses on beauty, fragrance and decoration.
+The centre of Annecy has other concept stores with character, and it would be a shame to leave them out. **babeth**, rue Royale, is a lifestyle house that combines fashion, furniture, decoration and a coffee shop. **Les Palettes**, rue de la Paix, champions emerging designers in jewellery, leather goods and design. And **Biutiful**, our neighbour at 4 bis rue de la Poste, focuses on beauty, fragrance and decoration.
 
 These addresses do not share our positioning. With us, fashion leads, the designer wardrobe, shoes and bags. It is often by going from one to the other that you find the boutique that suits you.
 
@@ -88,7 +88,7 @@ At 6 rue de la Poste, in the centre of Annecy, a few minutes' walk from the lake
 **Which designers can you find at the Annecy boutique?**
 The boutique features Anine Bing, adidas, Asics, Dragon Diffusion, Forte_Forte, Fugazzi, Golden Goose, Ibeliv, Isabel Marant, New Balance, Sebago and Assouline books. You will find clothing, shoes, bags, accessories and a few pieces for the home.
 
-**Is Click and Collect available in Annecy?**
+**Can I collect an order at the Annecy boutique?**
 Yes. You can order on our website and choose collection at the rue de la Poste boutique, during opening hours.
 
 **Which other concept stores are worth knowing in Annecy?**
@@ -99,4 +99,4 @@ No. It is open Monday to Saturday, from 10am to 7pm. On Sundays our website rema
 
 ## Going further
 
-Annecy is not our only address in the region, our [concept store in Lyon](/en/blog/concept-store-lyon/) also welcomes you on rue des Quatre Chapeaux. To understand what sets a concept store apart from an online department store, we have written [a guide to choosing a multi-brand designer website](/en/blog/choosing-a-multi-brand-designer-website/). And if you are visiting for a gift, our [Christmas gift ideas for women](/en/blog/christmas-gift-ideas-for-women/) cover every budget.
+Annecy is not our only address in the region, our [concept store in Lyon](/en/blog/concept-store-lyon/) also welcomes you on rue des Quatre Chapeaux. If you are hesitating between several designer websites to order from a distance, [our guide to choosing a multi-brand designer website](/en/blog/choosing-a-multi-brand-designer-website/) sets out the criteria that matter. And if you are visiting for a gift, our [Christmas gift ideas for women](/en/blog/christmas-gift-ideas-for-women/) cover every budget.
